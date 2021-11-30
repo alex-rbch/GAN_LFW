@@ -12,11 +12,9 @@ This personal project taught me a lot code-wise, and it opened my eyes to certai
 
 Even though this GAN works with low-resolution images, it is still incredible how well this model can extract semantic information from the dataset. Generated images are diverse and demonstrate complex properties including face symmetry, facial hair, occasionally glasses or even hats. Not to mention, the variety of facial expressions is just striking.
 
-<p align="center">![143947122-8401c65b-ab14-4139-80e5-b6193e0d0888](https://user-images.githubusercontent.com/42875258/143993385-4dcf7711-e7d5-4217-8dbb-083646ac1b4d.png)
-
+<p align="center">
   <img src="https://user-images.githubusercontent.com/42875258/143947116-ea1f6bde-145e-47fe-844d-8b8c64a88380.png" width="175">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![143947125-fd302735-ac9a-425e-8374-13aa294f8b34](https://user-images.githubusercontent.com/42875258/143993384-f2df30d3-c811-4cd4-b747-0ed77b919332.png)
-
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/42875258/143947122-8401c65b-ab14-4139-80e5-b6193e0d0888.png" width="175">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/42875258/143947125-fd302735-ac9a-425e-8374-13aa294f8b34.png" width="175">
