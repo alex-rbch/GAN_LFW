@@ -1,12 +1,12 @@
 # GAN_LFW
 
-Implementation of a Generative Adversarial Network (GAN) with convolutional generator and discriminator. The provided model was trained on a preprocessed LFW dataset (36x36, centered) for 2 hours on 1 GPU.
+Implementation of a Generative Adversarial Network (GAN) with convolutional generator and discriminator. The provided model was effectively trained on a preprocessed LFW dataset (36x36, centered) on 1 GPU.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/42875258/143950484-9a8dbbb9-8807-436d-b639-7bc0b54cadd4.gif" width="700">
 </p>
 
-This personal project taught me a lot code-wise and definitively opened my eyes on certain aspects of machine learning. I sincerely hope that those who will find time to read this README will find something interesting here themselves, or at least they can enjoy some peculiar images of my creation.
+This personal project taught me a lot code-wise, and it definitively opened my eyes on certain aspects of machine learning. I sincerely hope that those who will find time to read this README will find something interesting here themselves, or at least they can enjoy some peculiar images of my creation.
 
 ## Quality of generated images
 
@@ -27,8 +27,9 @@ It was a revelation to me that GANs have a natural predisposition to providing d
 Sooner or later the discriminator might be overpowered by the generator. This means that fake images satisfy discriminator's conditions better than real ones, and if the discriminator is too slow to retrain it will start making progressing bad decisions, leading to collapse of the model.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/42875258/143959911-a0f2e9df-71b7-4108-9a61-b6def7e57086.png" width="350">
-  
+  <img src="https://user-images.githubusercontent.com/42875258/143959911-a0f2e9df-71b7-4108-9a61-b6def7e57086.png" width="400">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://user-images.githubusercontent.com/42875258/143983246-6bd347b8-4dea-4ccc-b42f-4d4f8bf5d5dc.png" width="400">
 </p>
 
 The fact that the discriminator grades fake images higher than real images.
