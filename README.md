@@ -40,7 +40,7 @@ The fact that the discriminator grades fake images higher than real images says 
 Importance of including Batchnormalization layers is hard to overstate. Working with random noise, it helps immensely for the signal to travel throughout the net. As a curiosity, I include most disturbing images I obtained without implementing Batchnormalization.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/42875258/143985635-c7e9d4ba-ca59-41e8-a615-133abdc78b57.png" width="250">
-  <img src="https://user-images.githubusercontent.com/42875258/143985750-bcdd995e-ff6c-4bc5-91a5-57212a070e3f.png" width="250">
-  <img src="https://user-images.githubusercontent.com/42875258/143985769-ad1e3100-fa67-47db-8c5d-eb8705686f9d.png" width="250">
+  <img src="https://user-images.githubusercontent.com/42875258/143985635-c7e9d4ba-ca59-41e8-a615-133abdc78b57.png" width="200">
+  <img src="https://user-images.githubusercontent.com/42875258/143985750-bcdd995e-ff6c-4bc5-91a5-57212a070e3f.png" width="200">
+  <img src="https://user-images.githubusercontent.com/42875258/143985769-ad1e3100-fa67-47db-8c5d-eb8705686f9d.png" width="200">
 </p>
