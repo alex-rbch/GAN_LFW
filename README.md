@@ -13,7 +13,7 @@ This personal project taught me a lot code-wise, and it definitively opened my e
 Even though this GAN works with low-resolution images, it is still incredible how well this small model can extract semantic information from the dataset. Generated images are diverse and demonstrate complex properties including face symmetry, facial hair, occasionally glasses or hats. Not to mention, the variety of facial expressions is just striking.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/42875258/143947116-ea1f6bde-145e-47fe-844d-8b8c64a88380.png" width="175" style="margin-right: 200px;">
+  <img src="https://user-images.githubusercontent.com/42875258/143947116-ea1f6bde-145e-47fe-844d-8b8c64a88380.png" width="175">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/42875258/143947122-8401c65b-ab14-4139-80e5-b6193e0d0888.png" width="175">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -35,4 +35,12 @@ Sooner or later the discriminator might be overpowered by the generator. This me
 The fact that the discriminator grades fake images higher than real images says little about their quality. As can be seen in figures above, generator's quality might degrade while the discriminator views its output higher than real images. 
 
 
-## Importance of Batchnormalization
+## Batchnormalization
+
+Importance of including Batchnormalization layers is hard to overstate. Working with random noise, it helps immensely for the signal to travel throughout the net. As a curiosity, I include most disturbing images I obtained without implementing Batchnormalization.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/42875258/143985635-c7e9d4ba-ca59-41e8-a615-133abdc78b57.png" width="250">
+  <img src="https://user-images.githubusercontent.com/42875258/143985750-bcdd995e-ff6c-4bc5-91a5-57212a070e3f.png" width="250">
+  <img src="https://user-images.githubusercontent.com/42875258/143985769-ad1e3100-fa67-47db-8c5d-eb8705686f9d.png" width="250">
+</p>
