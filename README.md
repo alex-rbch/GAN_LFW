@@ -32,7 +32,7 @@ Sooner or later the discriminator might be overpowered by the generator. This me
   <img src="https://user-images.githubusercontent.com/42875258/143983246-6bd347b8-4dea-4ccc-b42f-4d4f8bf5d5dc.png" width="300">
 </p>
 
-The fact that the discriminator grades fake images higher than real images.
+The fact that the discriminator grades fake images higher than real images says little about their quality. As can be seen in figures above, generator's quality might degrade while the discriminator views its output higher than real images. 
 
 
 ## Importance of Batchnormalization
