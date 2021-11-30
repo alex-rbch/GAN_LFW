@@ -10,11 +10,13 @@ This is my personal project. This great experience taught me a lot code-wise and
 
 ## Quality of generated images
 
-Even though this GAN works with low-resolution images, it is still incredible how well this small model can differentiate semantic information from the dataset. Generated images are diverse and demonstrate complex properties, such as face symmetry, facial hair, occasionally glasses and hats. The variety of facial expressions is just striking.
+Even though this GAN works with low-resolution images, it is still incredible how well this small model can extract semantic information from the dataset. Generated images are diverse and demonstrate complex properties, such as face symmetry, facial hair, occasionally glasses and hats. Not to mention, the variety of facial expressions is just striking.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/42875258/143947116-ea1f6bde-145e-47fe-844d-8b8c64a88380.png" width="250" style="margin-right: 200px;">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/42875258/143947122-8401c65b-ab14-4139-80e5-b6193e0d0888.png" width="250">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/42875258/143947125-fd302735-ac9a-425e-8374-13aa294f8b34.png" width="250">
 </p>
 
