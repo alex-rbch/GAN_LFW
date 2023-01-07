@@ -36,7 +36,7 @@ Sooner or later, the discriminator might become overpowered by its generator. Th
 The discriminator may rank fake images higher than real ones, but that says little about their quality. The figures above demonstrate how the quality of the generator's output might degrade, as it happens during the GAN's collapse. 
 
 
-## Batch normalization
+## Importance of Batch normalization
 
 The importance of including batch normalization layers is hard to overstate. Working with random noise, they help immensely for the signal to travel throughout the net.
 
