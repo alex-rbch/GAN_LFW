@@ -22,7 +22,7 @@ Even though this GAN works with low-resolution images, it is still incredible ho
 
 It was a revelation to me that GANs have a natural predisposition to providing diverse outputs. This is so because if a generator were to focus on creating images of a particular type, a discriminator would lower predictions for images of this type, punishing the generator's "dullness". That is why the generator's output space seems to resemble the training dataset.
 
-## Witnessing internal "adversarial" attack (GAN's collapse)
+## Witnessing "internal adversarial attack" (GAN's collapse)
 
 Sooner or later, the discriminator might become overpowered by its generator. That means that fake images satisfy the discriminator's conditions better than real ones. Then, if the discriminator is too slow to retrain, it will start making progressively bad decisions. This situation might ultimately lead to the collapse of the model.
 
